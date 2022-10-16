@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dbdbdd;
+    
+}
+/* Header */
+
+/* Navigation Starts  */ 
+#navigaiton{
+ background:none;
+ border: 0;
+ width: 100%;
+position: absolute;
+z-index: 10;
+
+
+}
+ .navbar-toggle{
+    display: block;
+    border: 0;
+}
+ 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+     cursor: pointer;
+    background: none;
+   
+  }
+
+ .navbar-header{
+    float: none;
+  }
+
+  .navbar-right{
+    float: left !important;
+  }
+
+  .icon-bar-left{
+    float: left;
+    
+  }
+ .icon-bar-left span{
+    color: #ffff;
+    
+  }
+ 
+  .icon-right{
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+    color: #ffff;
+  }
+
+  
+#navigaiton .navbar-brand{
+    color: #ffff;
+} 
+#navigaiton .navbar-nav li a{
+    color: #ffff;
+}
+
+/* Carousel */
+.my-container{
+padding: 0;
+color: #ffff;
+}
+.carousel .item{
+    background-image: url("../img/slide01.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.carousel .item-2{
+    background-image: url("../img/slide02.jpg");
+}
+
+.carousel .item-3{
+    background-image: url("../img/slide03.jpg");
+}
+
+.carousel .item-4{
+    background-image: url("../img/slide04.jpg");
+}
+
+.carousel .item-5{
+    background-image: url("../img/slide05.jpg");
+}
+
+/* banner */
+
+.banner-text{
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 20;
+}
+.banner-text hr{
+    width: 50%;
+
+}
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.banner-text h1{
+    font-size: 120px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+/* two secction start */
+
+.two-section{
+    padding: 70px 0;
+
+}
+.two-section img{
+    width: 100%;
+}
+.two-section .left,.two-section .right-1{
+    background-color: #ffff;
+    text-align: center;
+    width: 95%;
+
+
+
+}
+.right-1{
+    margin-left: 5%;
+}
+
+
+.two-section h6{
+    letter-spacing: 3px;
+    color: grey;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    color: grey;
+    height: 0.5px;
+
+}
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 8px 0;
+}
+.two-section p{
+    text-align: left;
+    padding: 25px 30px;
+    font-size: 15px;
+    color: grey;
+}
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    border: 2px solid #dfdfdf;
+    margin-bottom: 30px;
+}
+
+
+/* two secction end */
+
+/* Some-first start*/
+.Some-first{
+    text-align: center;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffff;
+    padding: 100px 0;
+  
+}
+
+.Some-first p , .four-image-section p{
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.Some-first hr , .four-image-section hr{
+    width: 35%;   
+}
+
+.Some-first h5 , .four-image-section h5{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 25px 0;
+}
+
+/* Some-first Ends */
+
+/* four-images start */
+.four-image-section{
+   
+padding: 100px 0;
+}
+
+.four-image-section h5{
+    margin-bottom: 100px;
+}
+
+.four-image-section img{
+    width: 95%;
+    float: left;
+    margin-bottom: 10%;
+    border: 10px solid #ffff;
+}
+
+.four-image-section .left{
+    margin-left: 5%;
+}
+
+
+.four-image img {
+    width: 100%;
+
+}
+
+/* four-images End */
+
+/* footer starts  */
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 50px 0;
+}
+
+.footer a{
+    color: grey;
+}
+
+.footer .fa{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+/* footer End  */
+
+/* Media Query starts */
+
+ @media screen and (max-width:768px){
+    .navbar-nav{
+        padding-right: 15px;
+        padding-left: 15px;
+        /* border-top: 1px solid #fff; */
+    }
+
+    .Some-first p ,.four-image-section p{
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+
+     .Some-first hr ,.four-image-section hr{
+        width: 60%;   
+    }
+
+    .Some-first h5 ,.four-image-section h5{
+        font-size: 20px;
+    }
+  
+}
+
+@media screen and (max-width:992px){
+    .banner-text p{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .banner-text h1{
+        font-size: 80px;
+        
+    }
+
+    .two-section .left,.two-section.right-1{
+        width: 100%;
+    }
+    .two-section.right-1{
+        margin-left: 0;
+    }
+/* 
+    .four-image img{
+        width: 100%;
+    } */
+
+    
+
+
+     .four-image .left{
+        margin-left: 0;
+    }
+
+    
+
+}
